@@ -10,9 +10,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# use spaceship-prompt
-autoload -U promptinit; promptinit
-prompt spaceship
+# use starship
+eval "$(starship init zsh)"
+
 
 # set prompt to current directory
 if [ $ITERM_SESSION_ID ]; then
@@ -87,7 +87,7 @@ cat << "EOF"
       .MMMMMMMMMM                           MMMMMMMMMM.               
       MMMMMMMMM"                             "MMMMMMMMM               
       MMMMMMMMM          Welcome back,        MMMMMMMMM               
-      MMMMMMMMM            @ethanis           MMMMMMMMM               
+      MMMMMMMMM            @j-dunham          MMMMMMMMM               
       MMMMMMMMMM                             MMMMMMMMMM               
       `MMMMMMMMMM                           MMMMMMMMMM`               
        MMMMMMMMMMMM.                     .MMMMMMMMMMMM                
