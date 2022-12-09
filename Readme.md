@@ -1,4 +1,4 @@
-# Ethan Dennis' Dot Files
+# Dot Files
 
 This sets up my macOS environment as I like. These scripts take heavy inspriation from [ryanb](https://github.com/ryanb/dotfiles).
 
