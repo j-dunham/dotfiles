@@ -65,6 +65,9 @@ def install_homebrew_utils
 
   puts "Installing starship"
   system('brew install starship') unless command_found?("starship")
+  
+  puts "Installing fzf"
+  system('brew install fzf') unless command_found?("fzf")
 end
 
 def install_node
